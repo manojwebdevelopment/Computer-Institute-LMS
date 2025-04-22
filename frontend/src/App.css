@@ -1,0 +1,12 @@
+.nav-link-hover-effect {
+  position: relative;
+  display: inline-block;
+  color: #212529;  /* Default text color */
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.nav-link-hover-effect:hover {
+  transform: scale(1.2);  /* Zoom effect */
+  color: #007bff;         /* Change color to blue (or any color you want) */
+}
